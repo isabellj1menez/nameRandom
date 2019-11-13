@@ -1,0 +1,26 @@
+<nav class="navbar navbar-expand-sm">
+    <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <div class="gender">
+                <div class="div">
+                    <button class="btn icons" [ngClass]="{'activo': random, 'inactivo':!random }" (click)="Getgender(null)"> <i class="fas fa-random"></i></button>
+                    <button class="btn icons" [ngClass]="{'activo': male, 'inactivo':!male }" (click)="Getgender('male')"><i class="fas fa-mars"></i></button>
+                    <button class="btn icons" [ngClass]="{'activo': female, 'inactivo':!female }" (click)="Getgender('female')"> <i class="fas fa-venus"></i> </button>
+                </div>
+                <p>GENDER</p>
+            </div>
+            <div class="region">
+                <button class="icons"><i class="fas fa-flag"></i></button>
+                <p>REGION</p>
+            </div>
+            <div class="bulk">
+                <button class="icons"><i class="fas fa-archive"></i></button>
+                <p>BULK</p>
+            </div>
+        </ul>
+        <div class="more col-1">
+            <button class="icons1"><i class="fas fa-bars"></i></button>
+            <p>more</p>
+        </div>
+    </div>
+</nav>

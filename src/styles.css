@@ -1,1 +1,105 @@
 /* You can add global styles to this file, and also import other style files */
+
+.containeer {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    background: rgb(158, 241, 158);
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 35vh;
+}
+
+.icons,
+.icons1 {
+    text-align: center;
+    font-size: 17px;
+    line-height: 20px;
+    margin: left;
+    height: 38px;
+    width: 38px;
+    background: cornsilk;
+    display: inline-block;
+    opacity: 0.5;
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+.gender,
+.region,
+.bulk,
+.more {
+    text-align: center;
+    color: white;
+    font-size: 11px;
+}
+
+.activo {
+    opacity: 1;
+}
+
+.inactivo {
+    opacity: .5;
+}
+
+.spacebar {
+    margin: auto;
+    width: 80vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.info {
+    /* background: darkviolet; */
+    width: 50%;
+    margin: 10% auto;
+}
+
+
+/* 
+ .containeer .info {
+    margin: auto;
+    width: 50vw;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-items: space-around;
+    align-items: space-around;
+    background: darksalmon;
+}
+
+.info .photo {
+     width: 100%;
+    height: 50%;
+    background: chartreuse; 
+
+
+}
+.name {
+ width: 70%;
+    height: 15%; 
+    margin: auto;
+    text-align: center;
+    color: white;
+    background: darkblue;
+}
+.datos {
+    background: darkmagenta;
+    width: 40%;
+     height: 35%;
+    
+    margin: auto;
+}
+.tips {
+    height: 5%;
+    background: darkviolet;
+}
+.list-group {
+    list-style: none;
+} */
