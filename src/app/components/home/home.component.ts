@@ -44,9 +44,17 @@ export class HomeComponent implements OnInit {
   public Mostrardatos(){
     console.log('c');
     
-    this.nameservice.searchgenerate(this.gender).subscribe()
-    console.log(this.nameservice);
+    this.nameservice.searchgenerate(this.gender).subscribe(
+      (data)=>{
+
+        console.log(data)
+
+      }
+    )
     
   }
-
+  
 }
+
+
+
