@@ -7,6 +7,8 @@ import { HomeComponent } from './components/home/home.component';
 import { appRouting } from './app.routes';
 import { FooterComponent } from './components/footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
+import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
+
 
 @NgModule({
   declarations: [
@@ -18,7 +20,8 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     appRouting,
-    HttpClientModule
+    HttpClientModule,
+    SweetAlert2Module
 
   ],
   providers: [],
